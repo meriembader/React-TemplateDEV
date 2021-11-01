@@ -1,0 +1,295 @@
+@import "../../../www/style/colors";
+
+.restaurants-list-body {
+  padding: 50px 1% 0px 1%;
+}
+
+
+.bk-title{
+padding: 20px 0 20px 0px;
+font-family: Circe;
+font-size: 30px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #000000;
+}
+
+.marge-col-card-resto{
+  padding-left: 4rem!important;
+  margin-left: 4.5rem!important;
+}
+
+.marge-col-card-title{
+  margin-left: 20px;
+}
+
+.bk-map-filter{
+  padding: 0px 0 0 80%;
+}
+
+.bk-offer {
+  font-family: Circe;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.card-map{
+  border-radius: 14px;
+  width: 100px;
+  height: 100px;
+margin-left: 700px;
+}
+
+.discount-card{
+  width: 157px;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 6px;
+  margin-top: 4%;
+  background-color: #fb5557;
+  border-radius: 15px;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.SearchBar {
+  width: 50px;
+  height: 45px;
+  margin: 0 163px 45px 200px;
+  padding: 15.7px 689px 14.3px 20px;
+ 
+}
+
+
+.logo-Search {
+  width: 20%;
+  vertical-align: revert;
+  
+}
+
+.search-place {
+  max-width: 800px;
+}
+
+.search-input {
+  padding-left: 35px;
+}
+.nav-card{
+padding-right: 0;
+padding-left: 2% !important;
+margin:0 ;
+}
+.search-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: -20px;
+}
+
+.search-field {
+  background-color: #f1f5f8;
+
+  width: 50%;
+  .search-field-input {
+    background-color: #f1f5f8;
+
+    border: none;
+  }
+}
+
+.arrow-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-left: -30px;
+}
+
+.banner-description {
+  padding: 0px 20%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.48;
+  color: #000000;
+}
+
+
+.landing-body {
+padding: 100px 10%;
+}
+.dropNav{
+padding-left: 90%!important;
+}
+.my-dropdown {
+border-radius: 0;
+}
+.icon-button {
+font-size: 18px;
+font-weight: bold;
+min-width: 120.2px;
+height: 50px;
+padding: 12px 15px;
+color: #000000;
+background-color: whitesmoke;
+border-radius: 5px;
+}
+
+.dropleft .dropdown-toggle::before {
+border: 0;
+}
+
+.speciality-box {
+width: 205px;
+height: 200px;
+margin-left: 20px;
+border-radius: 15px;
+}
+
+.speciality-title {
+font-size: 18px;
+font-weight: bold;
+}
+
+
+
+
+
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.map-marker-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+
+.popover {
+  max-width: 1000px;
+  min-width: 800px;
+  border-radius: 15px;
+  width: 600px;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.popover-content {background-color: tomato;border-radius: 15px;}
+
+.row-filter{
+  max-width: 100%;
+}
+
+.tripar{
+  width: 200px;
+  height: 40px;
+  background-color: #f1f5f8;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+
+  color: #000000;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: none;
+  text-align: left;
+ 
+
+}
+
+.prix{
+  width: 80px;
+  height: 40px;
+  background-color: #f1f5f8;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: none;
+
+}
+
+.diab{
+  width: 120px;
+  height: 40px;
+  background-color: #f1f5f8;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: none;
+
+}
+.search-field {
+  background-color: $field_text_color_bg;
+  height: 70%;
+  width: 50%;
+  border-radius: 15px;
+
+  img:not(#arrow-search){
+    position: center;
+    width:10%;
+    height:50%;
+  }
+
+  .search-field-input {
+    background-color: $field_text_color_bg;
+    color: $placeholder_font_color;
+    border: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: Circe;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+  }
+
+  #arrow-search{
+    width:10%;
+    height:50%;
+  }
+}

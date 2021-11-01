@@ -1,0 +1,202 @@
+.restaurant-detail {
+  min-height: 350px;
+  margin-top: 100px;
+
+  h2 {
+    height: 59px;
+    font-family: Circe;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.48;
+    color: #ffffff;
+  }
+}
+
+.reservation-desc {
+  margin: 146px 10px 0px 100px;
+}
+
+.confirm-reser-box {
+  width: 537px;
+  min-height: 310.8px;
+  //margin: 40px 139px 185.2px 16px;
+  padding: 38px 33.5px 30.8px 31px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  background-color: #f1f5f8;
+  font-size: 18px;
+  margin-top: 80px;
+  border-radius: 10px;
+
+  .remove {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+  }
+
+  .confirm-btn {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.45;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 472.5px;
+    height: 70px;
+    margin: 0 0 19.5px;
+    padding: 20px 100.5px 18px 100px;
+    background-color: #45b995;
+  }
+
+  .confirm-btn-disabled {
+    width: 472.5px;
+    height: 70px;
+    margin: 0 0 19.5px;
+    padding: 19px 100.5px 19px 100px;
+    background-color: #b0b3bc;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.45;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+  }
+}
+
+.products-container {
+  padding: 20px 100px;
+
+  h3 {
+    color: white;
+  }
+
+
+  .products-list {
+    height: 32px;
+    font-size: 22px;
+    color: #000000;
+    border-bottom: solid 1px lightgrey;
+    height: 80px;
+
+    .item {
+      padding: 20px 25px;
+      cursor: pointer;
+      height: 100%;
+      min-width: 150px;
+    }
+
+    .active {
+      padding: 20px 25px;
+      border-bottom: solid 1px #000000;
+      font-weight: bold;
+      cursor: pointer;
+      height: 100%;
+      min-width: 150px;
+    }
+  }
+
+  h4 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
+
+.restaurant-detail-card {
+  color: #ffffff;
+  padding: 120px 0px 0px 10%;
+  height: 26px;
+  font-family: Circe;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: normal;
+  position: relative;
+  z-index: 1;
+}
+
+.restaurant-detail-card .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 110%;
+  height: 350px;
+  min-height: 340px;
+}
+
+.layer {
+  background-color: #333a50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 350px;
+}
+
+.name-title {
+    font-family: Circe;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.restaurant-detail-text {
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.discount{
+  margin-left: -90%;
+  padding-top: 5px;
+  width: 180.6px;
+  height: 40px;
+  background-color: #fb5557;
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-top: 8px;
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.edit-product-nbr{
+padding-left: 20px;
+}
+.disbtn{
+  height: 40px;
+  width: 50px;
+  background-color: #fb5557;
+  border-radius: 15px;
+  font-family: Circe;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  padding-top: 12px;
+  color: #ffffff;
+}
+
+.r-action{
+  margin-right: 5px;
+  padding-top: 25px;
+}

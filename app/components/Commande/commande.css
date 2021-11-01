@@ -1,0 +1,77 @@
+.link-color {
+  color: #fb5557;
+}
+.subscription-field1 {
+  width: 277% !important;
+  background-color: #f1f5f8 !important;
+}
+.SubTitle{
+  width: 104px;
+  height: 23px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.offer-price{
+  margin-left: 20px;
+}
+
+.title-item{
+  height: 26px;
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.edit-quantity{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.delivery-box{
+  padding-left: 20px;
+}
+
+.Trac-997 {
+  width: 423.5px;
+  height: 70px;
+  margin: 316px 0 0;
+  padding-top: 20px;
+  border-radius: 15px;
+  background-color: #45b995;
+  font-family: Circe;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.TRAC-993{
+  height: 32px;
+  font-family: Circe;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  margin-right: 40%;
+  color: #ffffff;
+}

@@ -1,0 +1,69 @@
+@import "../../www/style/colors";
+
+.app-header {
+
+  img{
+    width:80%;
+    height:80%;
+  }
+  .search-field {
+    background-color: $field_text_color_bg;
+    height: 70%;
+    width: 50%;
+    border-radius: 15px;
+
+    img:not(#arrow-search){
+      position: center;
+      width:10%;
+      height:50%;
+    }
+
+    .search-field-input {
+      background-color: $field_text_color_bg;
+      color: $placeholder_font_color;
+      border: none;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      font-family: Circe;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1.46;
+      letter-spacing: normal;
+      text-align: left;
+    }
+
+    #arrow-search{
+      width:10%;
+      height:50%;
+    }
+  }
+
+  .my-dropdown {
+    margin: 2px 0 0 375px;
+    padding: 21px 0 27.4px;
+    min-width: 17rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.17);
+    background-color: #ffffff;
+    border-radius: 7px;
+  }
+
+
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a.nav-link.nav-link.active {
+  margin-right: 13%;
+  background-color: #E2F5EF;
+  color: black;
+  font-size: 16px;
+}

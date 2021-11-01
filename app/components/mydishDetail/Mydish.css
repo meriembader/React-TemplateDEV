@@ -1,0 +1,34 @@
+.mydish-box {
+  border-radius: 15px;
+  background-color: #f1f5f8;
+  width: 100%;
+  height: 200px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.mydish-card-img {
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+.detail {
+  font-family: Circe, serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #858891;
+}
+
+.price-style {
+  position: absolute;
+  left: auto;
+  bottom: 10px;
+}

@@ -1,0 +1,35 @@
+.reservation-modal {
+  padding: 0% 10%;
+  width : 500px !important;
+  height: 470px;
+}
+
+.reservation-body-box {
+  border: 1px dotted #fb5557;
+  border-radius: 25px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+/* TODO make this class common */
+.common-modal-sub-button {
+  width: 100%;
+  height: 54.8px;
+  background-color: #333a50;
+  font-family: Circe;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.common-modal-sub-button:hover {
+  color: #fff;
+  background-color: #fb5557;
+  border-color: #fb5557;
+}

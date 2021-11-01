@@ -1,0 +1,66 @@
+
+
+
+.container-card {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.detail-card-nothing{
+  position: absolute;
+  left: 40%;
+  width: 20%;
+  font-family: Circe;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.title-card-nothing {
+  @extend .detail-card-nothing;
+  top: 42%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.detail1-card-nothing {
+  @extend .detail-card-nothing;
+  top: 50%;
+  font-size: 16px;
+}
+
+.detail2-card-nothing {
+  @extend .detail-card-nothing;
+  top: 55%;
+  font-size: 16px;
+}
+
+.icon-nofavoris{
+  position: center;
+  width: 40%;
+  left: auto;
+}
+
+
+.Path-1047{
+  width: 260px;
+  height: 55px;
+  margin-left: 40%;
+  background-color: #45b995;
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+.navbar-link-trans {
+  min-width: 130px;
+  font-family: Circe;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding: 13px 32px;
+}
+
+.navbar-link-trans:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.navbar-link-trans-border {
+  min-width: 130px;
+  height: 55px;
+  opacity: 0.75;
+  border: solid 1px #ffffff;
+}
+
+.navbar-link-light {
+  min-width: 130px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  padding: 13px 32px;
+}
+
+.navbar-link-primary {
+  min-width: 130px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  color: #fb5557;
+  height: 55px;
+  margin: 0 0 0 35px;
+  padding: 13px 32px;
+  opacity: 0.75;
+  border: solid 1px #fb5557;
+}
+
+
+
+

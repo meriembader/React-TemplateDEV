@@ -1,0 +1,435 @@
+/********** Modal Styles ***************/
+
+
+@font-face {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Circe'), url('./circe-cufonfonts/CRC55.woff') format('woff');
+}
+
+.common-modal-sub-button {
+  width: 100%;
+  height: 54.8px;
+  background-color: #333a50;
+  margin-left: -50px;
+  font-family: Circe;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Trac-975 {
+  width:  400px;
+  height: 100px;
+  background-color: #ffffff;
+  border-color: #f1f5f8;
+  border-radius: 3px;
+}
+
+.common-modal-sub-button:hover {
+  color: #fff;
+  background-color: #fb5557;
+  border-color: #fb5557;
+}
+
+.modal-footer-style {
+  height: 100px;
+  width: 100%;
+  background-color: #f1f5f8;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  justify-content: flex-start;
+}
+
+.modal-header-style {
+  height: 250px;
+  width: 100%;
+  background-color: #f1f5f8;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+}
+
+.img-border-radius {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 11px;
+  border-top-left-radius: 11px;
+}
+
+
+
+.box-with-border-radius {
+  background-color: #f1f5f8;
+  padding: 30px ;
+  margin-left: 10px;
+  border-radius: 13px;
+  min-height: 800px;
+  width: 120%;;
+  position: relative;
+}
+
+.boxpay-with-border-radius {
+  background-color: #f1f5f8;
+  margin-left: 80px;
+  padding: 30px ;
+  border-radius: 13px;
+  min-height: 800px;
+  position: relative;
+  width: 100%;
+}
+
+.box-bottom-validation-btn {
+  position: absolute;
+  bottom: 25px;
+  height: 70px;
+  background-color: #45b995;
+  border-radius: 13px;
+  width: 90%;
+  font-family: Circe;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.box-bottom-validation-btn:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+
+/*********** Form inputs Classes *************/
+.form-control-custom {
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f1f5f8;
+}
+
+.flag-select__option__icon {
+  width: 1.3em;
+  height: 1.3em;
+  position: relative;
+  top: 0em !important;
+}
+
+.card-img {
+  width: 100%;
+  heigth: 50%;
+}
+
+/*********** Cards Style ***************/
+.card-box {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  min-width: 813px;
+  max-width: 80%;
+  height: 265px;
+  border-radius: 15px;
+  background-color: #f1f5f8;
+}
+
+/********* Links and Buttons ***************/
+.primary-link-inline {
+  height: 29px;
+  font-family: Circe;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.45;
+  text-align: left;
+  color: #fb5557;
+  cursor: pointer;
+}
+
+.secondary-button-border {
+  height: 55px;
+  padding: 10px 20px;
+  border: solid 1px #333a50;
+  font-family: Circe;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.45;
+  text-align: left;
+  color: #000000;
+  cursor: pointer;
+}
+
+h3 {
+  height: 45px;
+  font-family: Circe;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+h4 {
+  height: 39px;
+  font-family: Circe;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+h5 {
+  height: 26px;
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.info-grey {
+  height: 23px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #858891;
+}
+
+.icon-small {
+  width: 20.5px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.simple-link {
+  height: 23px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color:  mediumseagreen;
+}
+
+.simple-link:hover {
+  cursor: pointer;
+  size: 18px;
+  text-decoration: underline;
+}
+
+
+
+.rate-value {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.validation-btn-Common {
+  background-color: #45b995 !important;
+  border-radius: 13px;
+  width: 90%;
+  margin-top: 20px;
+  font-family: Circe;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff !important;
+}
+
+.link-icon {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.detail {
+  font-size: 16px;
+  line-height: 1.44;
+  color: #858891;
+}
+
+.reserve-btn {
+  width: 240px;
+  height: 55px;
+  background-color: #45b995;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Circe;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+
+}
+
+.error-field {
+  height: 36px;
+  font-family: Circe;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.44;
+  text-align: left;
+  color: #f56954;
+}
+
+.box-error{
+  width: 90%;
+  height: 50px;
+  margin: 8.5px 0% 5% 0;
+  background-color: #fb5557;
+  border-radius: 6px;
+
+}
+
+.check-icon{
+  max-width:3%;
+  max-height:100%;
+  width: 22px;
+  height: 22px;
+  margin: 12px 10px 2px 21px;
+  object-fit: contain;
+}
+
+.alert-icon{
+  max-width:3%;
+  max-height:100%;
+  width: 22px;
+  height: 22px;
+  margin: 14px 0px 2px 16px;
+}
+
+.alert-text{
+  width: 270px;
+  height: 23px;
+  margin: 14px 0 0 15.1px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.margin-15px{
+  margin: 20px 0px 20px 20px ;
+}
+
+.margin-check-text{
+  margin-left: 10px ;
+  margin-top: 12px ;
+  width: 270px;
+  height: 23px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.pull-left-custom{
+  margin-left: 55%  ;
+}
+
+.pull-bottom-custom{
+  margin-top: 5px  ;
+}
+
+.box-success{
+  width: 90%;
+  height: 50px;
+  margin: 8.5px 0% 5% 0;
+  background-color: #45b995;
+  border-radius: 6px;
+
+}
+.menu-label{
+  width: 133px;
+  height: 26px;
+  margin: 17.5px 16px 45px 9.5px;
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.menu-flags-button{
+  width: 133px;
+}
+
+.mydish-form {
+  height: 100%;
+  width: 100%;
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+.btn {
+  &:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+  }
+}
+
+.ignore-panding-right{
+  padding-right: 0 !important;
+}

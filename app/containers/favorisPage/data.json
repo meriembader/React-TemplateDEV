@@ -1,0 +1,28 @@
+{
+  "restTestData": [
+    {
+      "imageUrl": "https://cdn.zeplin.io/5f3ba56c9e5bff26991556f4/assets/FD7D1209-8A02-4B64-88EE-2BD57CC55EFB.png",
+      "name": "Restaurant Name",
+      "address": "some address",
+      "avgPrice": 22,
+      "deliveryFees": 6,
+      "offers": "3rd purchase is free",
+      "type": "Italian",
+      "isFavorite": false,
+      "globalRating": 7,
+      "ratingsNbr": 44
+    },
+    {
+      "imageUrl": "https://cdn.zeplin.io/5f3ba56c9e5bff26991556f4/assets/FD7D1209-8A02-4B64-88EE-2BD57CC55EFB.png",
+      "name": "Restaurant Name",
+      "address": "some address",
+      "avgPrice": 22,
+      "deliveryFees": 6,
+      "offers": "3rd purchase is free",
+      "type": "Italian",
+      "isFavorite": false,
+      "globalRating": 7,
+      "ratingsNbr": 44
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.icon-style g {
+  fill: #ffffff;
+}
+
+.icon-date {
+  margin-left: -100%;
+}
+
+.icon-profile {
+  margin-left: -140%;
+}
+
+.date-info{
+  margin-top: 20%;
+  margin-left: -8%;
+}
+
+.number-inv{
+  margin-left: -250%;
+  font-weight: bold;
+}
+
+.painding-card{
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+}
+
+.reservation-container {
+  padding-left: 1%;
+  .reservations-list {
+    font-size: 22px;
+    width: 90%;
+    color: #000000;
+    border-bottom: solid 1px lightgrey;
+    height: 50px;
+
+      .item {
+        padding: 10px 5px;
+        cursor: pointer;
+        height: 100%;
+      }
+
+      .active {
+        padding: 10px 5px;
+        border-bottom: solid 2px #000000;
+        font-weight: bold;
+        cursor: pointer;
+        height: 100%;
+      }
+  }
+}

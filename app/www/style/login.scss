@@ -1,0 +1,412 @@
+@import "../../www/style/appstyle";
+
+.background-signin-sign-up {
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+
+  .background-signin-sign-up {
+    height: 100%;
+    width: 100%;
+    background-image: url("../icons/mobile/background_signin_sign_up.svg");
+  }
+  .container{
+    margin-top: 10%;
+  }
+  .mydish-registration {
+    left: 2%;
+    right: 2%;
+  }
+  .row-logo {
+    margin-left: 70px;
+    margin-bottom: 30px;
+  }
+  .connect-registration {
+    width: 100%;
+  }
+  .mydish-subtitle2 {
+    margin-left: 30px !important;
+  }
+
+  .save-btn {
+    width: 97px;
+    font-size: 14px;
+  }
+  .cancel-btn {
+    width: 97px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .background-signin-sign-up {
+    height: 960px;
+    width: 100%;
+    background-image: url("../icons/background_signin_sign_up.svg");
+  }
+  .mydish-registration {
+    left: 38%;
+  }
+  .row-logo {
+    margin-left: 50px;
+    margin-bottom: 100px;
+  }
+
+  .save-btn {
+    width: 111px;
+    font-size: 16px;
+  }
+  .cancel-btn {
+    width: 111px;
+    font-size: 16px;
+  }
+}
+.mydish-registration {
+  position: absolute;
+  margin-top: 7%;
+}
+
+.login.SeparatorLine {
+  width: 28%;
+}
+
+.logo-Search {
+  width: 128px;
+  margin-top: 8px;
+  margin-bottom: 100px;
+  height: 45px;
+}
+
+.mydish-title {
+  margin-top: 5%;
+  font-size: 37px;
+}
+
+.mydish-subtitle {
+  margin-top: 2%;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.mydish-subtitle2 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  margin-top: 25px;
+  text-align: center;
+
+}
+.mydish-bottom {
+  margin-bottom: 1%;
+}
+
+.mydish-subtitle0 {
+  margin-top: 2%;
+}
+.mydish-subtitle1 {
+  margin-top: 2%;
+  margin-left: 0.5%;
+  margin-bottom: 1%;
+}
+
+.felicitation-subtitle {
+  margin-bottom: 5%;
+}
+
+.mydish-logo {
+  text-align: center;
+  margin-left: -40px;
+  font-size: 30px;
+}
+
+.validation-btn {
+  width: 98%;
+  height: 60px;
+  margin-top: 13px;
+  padding: 1% 10% 1% 10%;
+  border-radius: 10px;
+  background-color: #333a50 !important;
+}
+.next-btn {
+  margin-top: 13px;
+  width: 98%;
+  height: 60px;
+  padding: 1% 10% 1% 10%;
+  border-radius: 10px;
+  border-color: #b0b3bc !important;
+  background-color: #b0b3bc !important;
+
+}
+
+.next-btn:focus {
+  background-color: #b0b3bc;
+  box-shadow: #b0b3bc !important;
+}
+
+
+
+.mydish-btn {
+  background-color: #333a50;
+  margin-top: 2%;
+  width: 98%;
+}
+
+transparent-button {
+  background-color: white;
+  background-repeat:no-repeat;
+  background-image: none;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.cancel-btn {
+  height: 40px;
+  margin: 40px 21.9px 32px 0px;
+  padding: 9px 24.1px 8px 24px;
+  background-color: #ffffff;
+  font-family: Circe;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #111111;
+  border: solid 2px #333a50;
+  border-radius: 7px;
+  border-color: #b0b3bc !important;
+
+}
+
+.save-btn {
+  height: 40px;
+  margin: 40px 21.9px 32px 0px;
+  padding: 9px 24.1px 8px 24px;
+  background-color: #b0b3bc;
+  font-family: Circe;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border-radius: 7px;
+
+}
+
+.submit-button {
+  height: 60px;
+  padding: 8px;
+  background-color: #b0b3bc;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.subscription-form {
+
+  background-color: #f1f5f8 !important;
+  width: 100% !important;
+}
+.subscription-field {
+  height: 60px;
+  width: 100%;
+  background-color: #f1f5f8 !important;
+}
+
+.password-field {
+  width: 98%;
+  height: 60px;
+  background-color: #f1f5f8 !important;
+}
+
+
+.MuiOutlinedInput-root {
+  border:0;
+}.Mui-focused.iOutlinedInput-notchedOutline {
+  border-color: #b3d4fc !important;
+
+}
+
+.MuiOutlinedInput-input{
+  padding: 0;
+}
+.password-field-withmargin {
+  width: 98%;
+  height: 60px;
+  background-color: #f1f5f8 !important;
+}
+.country-field {
+  width: 172%;
+  background-color: #f1f5f8 !important;
+}
+
+.login-icon {
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
+
+button.validation-btn.btn.btn-primary {
+  background-color: #333a50 !important;
+  border-color: #333a50 !important;
+}
+
+button.mydish-btn.btn.btn-primary {
+  background-color: #333a50 !important;
+  border-color: #333a50 !important;
+}
+
+.connect-registration {
+  width: 152px;
+  height: 26px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #45b995;
+  margin-top: 11%;
+}
+
+.forgetPassword {
+  width: 100%;
+  height: 26px;
+  font-family: Circe;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #45b995;
+  display: block;
+}
+
+.divider {
+  width: 100%;
+  text-align: center;
+  font-size: 16px !important;
+  color: #000000;
+  font-style: normal;
+  margin-top: 0.5rem !important;
+}
+
+.divider hr {
+  margin-left:auto;
+  margin-right:auto;
+  width: 44%;
+  margin-top: 0.5rem !important;
+
+}
+
+.payment-card-icons{
+  margin: 3% 1% 0% 1%;
+  width: 21.8px;
+  height: 15px;
+}
+
+.country1-input{
+  width: 100%;
+  height: 35px;
+  color: #FFFFFF;
+  background-color: #f1f5f8;
+}
+
+.country1-input-disabled{
+  width: 100%;
+  height: 35px;
+  color: #e9ecef;
+  background-color: #f1f5f8;
+}
+
+
+.payment-card-status{
+  margin: 2% 1% 2% 0%;
+
+}
+.payment-card-row{
+  heigth: 100%;
+  width: 100%;
+}
+
+
+
+.update-button{
+  @extend .right;
+  margin-right: 18%;
+}
+
+.social-media-connect {
+  width: 104%;
+}
+
+.edit-profile {
+  width: 66px;
+  height: 26px;
+  margin: 1% 0% 0% 0%;
+
+}
+
+.edit-profile-label{
+  font-family: Circe;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #45b995;
+  &:focus{
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+.profil-section{
+  width: 100%;
+}
+
+.form-group {
+  width: 98%;
+  hyphens: auto;
+  word-break: normal;
+}
+.form-group .input-group-addon {
+  background-color: #eee;
+  border-color: #ccc;
+  color: #555;
+}
+
+.form-group .form-control {
+  color: #555;
+  border-radius: 4px;
+}
+.form-group .form-control .Select-control {
+  border-radius: 4px;
+}
+.form-group .highlight-input {
+  border: 1px solid red;
+}
+
+.error {
+  color: red
+}
+
+.card-text-input {
+  height: 28%;
+  width: 60%;
+  background-color: #f1f5f8 !important;
+}

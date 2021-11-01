@@ -1,0 +1,87 @@
+@import "../../www/style/colors";
+
+.footer-box-1 {
+  width: 100%;
+  height: 460px;
+  margin: 150px 0 0;
+  padding: 86px 0 0 86px;
+  background-color: #333a50;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.13;
+  letter-spacing: normal;
+  color: #b0b3bc;
+}
+@media only screen and (max-width: 720px) {
+  .footer-box-1 {
+
+    height: 1090px;
+
+  }
+}
+.footer-box-2 {
+  width: 100%;
+  height: 100px;
+  padding: 40px 140px;
+  background-color: #2b3143;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b0b3bc;
+}
+
+.footer-section {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.download-app {
+  font-weight: bold;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.newsletter {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.newsletter-btn {
+  width: 126.9px;
+  height: 50px;
+  padding: 14px 20.9px 13px 20px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333a50;
+
+
+}
+
+.newsletter-input {
+  width: 226.9px;
+  height: 50px;
+  font-size: 16px;
+  background-color: #666c7c;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}

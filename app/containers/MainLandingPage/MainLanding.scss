@@ -1,0 +1,96 @@
+.banner {
+  width: 100%;
+  margin-top: 80px;
+  padding: 250px;
+  height: 750px;
+  object-fit: contain;
+  background-image: url('../../www/landing/banner.svg');
+  font-family: Circe;
+
+  .logo-Search {
+    width: 20%;
+    vertical-align: revert;
+  }
+
+  .search-place {
+    max-width: 800px;
+  }
+
+  .search-input {
+    padding-left: 35px;
+  }
+.nav-card{
+  padding-right: 0;
+  padding-left: 2% !important;
+  margin:0 ;
+}
+  .search-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: -20px;
+  }
+
+  .search-field {
+    background-color: white;
+    width: 50%;
+    .search-field-input {
+      background-color: white;
+      border: none;
+    }
+  }
+
+  .arrow-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: -30px;
+  }
+
+  .banner-description {
+    padding: 0px 20%;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.48;
+    color: #000000;
+  }
+}
+
+.landing-body {
+  padding: 100px 10%;
+}
+.dropNav{
+  padding-left: 90%!important;
+}
+.my-dropdown {
+  border-radius: 0;
+}
+.icon-button {
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 120.2px;
+  height: 50px;
+  padding: 12px 15px;
+  color: #000000;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.dropleft .dropdown-toggle::before {
+  border: 0;
+}
+
+.speciality-box {
+  width: 205px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.speciality-title {
+  font-size: 18px;
+  font-weight: bold;
+}

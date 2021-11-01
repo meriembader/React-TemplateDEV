@@ -1,0 +1,16 @@
+{
+  "listCommande": [
+    {
+      "name": "Soupe de nouilles au bœuf piquant",
+      "detail": "Vermicelle du riz. sauce tomate Piquante, plus de sauce.",
+      "number": 2,
+      "price": "24,00"
+    },
+    {
+      "name": "Poulet croustillant",
+      "detail": "Vermicelle du riz. sauce tomate Piquante, plus de sauce.",
+      "number": 2,
+      "price": "50,00"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+@import "../../www/style/colors";
+
+.col-md-border {
+  width: 0;
+  height: 962.8px;
+  margin: 0% 0% 5%;
+  border-right: solid 1px #333a50;
+}
+
+.add {
+  padding-left: 17%;
+  width: 700px;
+  height: 50px;
+  border: #f1f5f8;
+  font-size: 16px;
+  color: gray;
+  background-color: #f1f5f8;
+  background-image: url('../../www/icons/search_icon.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  outline: 0;
+}
+
+.search-margin{
+  margin-left: -190px;
+}
+
+.profile-margin{
+  margin-left: 80%;
+  width:40%;
+  height:10%;
+}
+
+.note-header {
+  margin-bottom: 4%;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.profil-style {
+  margin-left: 5%;
+}
+
+.nav-link {
+  border-radius: 10px;
+
+  &:active{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 13%;
+  background-color: #E2F5EF;
+  }
+}
+
+.mobile-fix-option {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  background-color: #333333;
+  width: 100vw;
+  z-index: 9;
+  -webkit-box-shadow: 0 2px 5px 0 #a8a8a8;
+  box-shadow: 0 2px 5px 0 #a8a8a8;
+}

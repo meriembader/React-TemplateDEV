@@ -1,0 +1,44 @@
+
+
+.poster-box{
+  width: 100%;
+  height: 50px;
+  margin: 8.5px 0% 5% 0;
+  border-radius: 6px;
+}
+.poster-box-success{
+  @extend .poster-box;
+  background-color: #45b995;
+}
+.poster-box-error{
+  @extend .poster-box;
+  background-color: #fb5557;
+}
+.poster-icon{
+  max-width:3%;
+  max-height:100%;
+  width: 22px;
+  height: 22px;
+}
+
+.poster-check-icon{
+  @extend .poster-icon;
+  margin: 12px 10px 2px 21px;
+  object-fit: contain;
+}
+
+.poster-alert-text{
+  width: 270px;
+  height: 23px;
+  margin: 14px 0 0 15.1px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+

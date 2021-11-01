@@ -1,0 +1,19 @@
+{
+  "fidelityTestData": [
+    {
+      "restaurantName": "Joayo Haussmann",
+      "restaurantType": "Italien • Pizza",
+      "promoCode": "FID1287"
+    },
+    {
+      "restaurantName": "Les Rupins",
+      "restaurantType": "Thaïlandais",
+      "promoCode": "FID1287"
+    },
+    {
+      "restaurantName": "Les Rupins",
+      "restaurantType": "Thaïlandais",
+      "promoCode": "FID1287"
+    }
+  ]
+}

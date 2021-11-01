@@ -1,0 +1,30 @@
+.name {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.row-menu {
+  flex-wrap: inherit !important;
+}
+.media{
+  width:100%
+}
+.avatar {
+  width: 50px;
+  height: 75px;
+  object-fit: contain;
+  padding-bottom: 25px;
+}
+
+.num {
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  padding-left: 8px;
+  padding-right: 8px;
+}
