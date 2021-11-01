@@ -88,14 +88,14 @@ const CommentList = ({
     <div className="card-box">
       <Row className="h-100">
         <Col
-          lg={6}
-          md={6}
-          sd={6}
-          xs={5}
+          lg={5}
+          md={5}
+          sd={5}
+          xs={4}
           style={{
             backgroundImage: pizza,
             backgroundSize: "cover",
-            borderRadius: "15px",
+            borderRadius: "10px",
           }}
         >
           {" "}
@@ -126,6 +126,8 @@ const CommentList = ({
           <Row>
             <DetailsText color={TEXT_COLOR}>Italien</DetailsText>
           </Row>
+          <br></br>
+          <br></br>
           <Row>
             <Col lg={3} md={4} xs={4} style={{ padding: "0px" }}>
               {/* <img alt="user_image" src={isOld ? calendarGrey: calendar} fill="red" className="icon-style"/> */}
@@ -149,13 +151,22 @@ const CommentList = ({
             </Col>
           </Row>
           <Row>
-            <SeparatorLine width="90%" />
+           
           </Row>
           <Row>
             <DetailsText
-              size="14px"
-              color={TEXT_COLOR}
-              style={{ paddingRight: "5px" }}
+              width=" 364px"
+              height=" 104px"
+              margin=" 5px 6px 12px 25.5px"
+              font-family=" Circe"
+              font-size=" 16px"
+              font-weight=" normal"
+              font-stretch=" normal"
+              font-style=" normal"
+              line-height=" 1.44"
+              letter-spacing=" normal"
+              text-align=" left"
+              color=" #000"
             >
               Belle découverte et joli cadre. Raviolis excellents et barbecue de
               canard et porc épicés super. Bon cheesecake au yuzu et belle
